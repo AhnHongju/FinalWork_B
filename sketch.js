@@ -21,10 +21,10 @@ function setup() {
 }
 
 function draw() {
-  image(img,0,0,width,height);
   for(let i=0;i<size;i++)
     {
       c=img.get(arrayLetter[i].loc.x,arrayLetter[i].loc.y);
+      fill(c);
       arrayLetter[i].update();
       arrayLetter[i].display();
     }
