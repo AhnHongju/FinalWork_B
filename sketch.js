@@ -1,5 +1,5 @@
 let arrayLetter=[];
-let size=400;
+let size=300;
 let img;
 
 function preload()
