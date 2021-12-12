@@ -1,5 +1,5 @@
 let arrayLetter=[];
-let size=5;
+let size=100;
 let img;
 let c;
 
