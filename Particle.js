@@ -1,6 +1,6 @@
 class Particle
   {
-    constructor()
+    constructor(size)
     {
       this.loc=createVector(width/2,height/2);
       this.vel=createVector(0,0);
