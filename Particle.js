@@ -27,6 +27,6 @@ class Particle
     {
       noStroke();
       text("NATURE",this.loc.x,this.loc.y);
-      textSize(5);
+      textSize(30);
     }
   }

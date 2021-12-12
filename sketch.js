@@ -1,11 +1,11 @@
 let arrayLetter=[];
-let size=100;
+let size=5;
 let img;
 let c;
 
 function preload()
 {
-    img = loadImage("nature.webp");
+    img = loadImage("nature2.jpg");
 }
 function setup() {
   createCanvas(800, 800);
