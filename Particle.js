@@ -11,7 +11,7 @@ class Particle
     update()
     {
       textAlign(CENTER);
-      let acc=createVector(random(-1,1),random(-1,1));
+      let acc=createVector(random(-0.3,0.3),random(-0.3,0.3));
       this.loc.add(this.vel);
       this.vel.add(acc);
       if(this.loc.x>width||this.loc.x<0)
@@ -27,6 +27,6 @@ class Particle
     {
       noStroke();
       text("NATURE",this.loc.x,this.loc.y);
-      textSize(5);
+      textSize(20);
     }
   }
