@@ -5,7 +5,7 @@ let c;
 
 function preload()
 {
-    img = loadImage("nature2.jpg");
+    img = loadImage("nature4.png");
 }
 function setup() {
   createCanvas(800, 800);
