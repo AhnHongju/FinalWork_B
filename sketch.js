@@ -1,5 +1,5 @@
 let arrayLetter=[];
-let size=50;
+let size=5;
 let img;
 let c;
 
@@ -8,7 +8,7 @@ function preload()
     img = loadImage("nature4.png");
 }
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1080, 720);
   image(img,0,0,width,height);
   background(0);
 

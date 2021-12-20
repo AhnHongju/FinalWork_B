@@ -22,6 +22,7 @@ class Particle
       {
         this.vel.y*=-1;
       }
+      // this.loc=createVector(random(0,width),random(0,height))
     }
     display()
     {
